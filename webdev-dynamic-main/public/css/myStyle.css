@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(249, 235, 145);
+
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #e18a8a;
+    padding: 0.3rem
+  }
+  
+  #tester{
+    max-width:40%;
+    display: inline-block;
+  }
+
+  .navbar a {   
+    text-decoration: none; 
+    list-style-type: none;
+    text-align: center;
+
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #420D09;
+    background-color: #5E1914;
+    border: .5rem;
+    border-color:#000000;
+    border-radius: 10%;
+    }
+
+  .navbar a:hover {
+      background-color: #e18a8a;
+   }
+
+   .navbar div{
+    text-decoration: none;
+    list-style-type: none;
+  
+   }
+   .navbar li {
+    margin: .2rem; 
+    display: inline-flex;
+    float: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.prevNext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: 1.05rem;
+}
+.prevNext a:hover{
+  border: 0.1rem solid black; 
+}
+
+.prevNext a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+#image-caption {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+button{
+    text-decoration: none; 
+      list-style-type: none;
+      text-align: center;
+  
+      color: white;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: .3rem;
+      padding-bottom: .3rem;
+      background-color: #000000;
+      border: .5rem;
+      border-color:#000000;
+      border-radius: 10%;
+  }
+ 
+  
+  .flexContainer{
+    display: flex;
+  }
+  
+  #highlight .current {
+    border: 0.1rem solid black; 
+
+}
+ #highlight{
+  border:#000000;
+  border-width: 1px;
+ }
+
+#pn a:hover {
+  background-color: #727272;
+}
+#alongside{
+    display: flex;
+    align-items: center;
+}
+.resultsFor{
+  display: flex;
+  align-items: left;
+  width: 40%;
+}
+
+#what{
+  justify-content: center;
+}
+#image {
+  margin-top: 1rem;
+  width: 35%;
+  text-align: center;
+}
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+}
